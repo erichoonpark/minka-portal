@@ -23,7 +23,7 @@ module.exports = {
         },
       },
       colors: {
-        primary: colors.indigo,
+        primary: colors.rose,
         info: colors.sky,
         success: colors.teal,
         warning: colors.amber,
@@ -47,10 +47,13 @@ module.exports = {
         stone: {
           1000: "#0f0d0c",
         },
+        minka: {
+          1000: "#ff5757"
+        }
       },
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
-        heading: ["Inter", "sans-serif"],
+        sans: ["Poppins", "sans-serif"],
+        heading: ["Poppins", "sans-serif"],
       },
     },
   },
