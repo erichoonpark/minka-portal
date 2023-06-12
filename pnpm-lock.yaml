@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@alpinejs/collapse':
     specifier: 3.12.0
@@ -34,6 +38,9 @@ dependencies:
   astro:
     specifier: 2.3.1
     version: 2.3.1
+  pnpm:
+    specifier: ^8.6.2
+    version: 8.6.2
   swiper:
     specifier: 9.2.4
     version: 9.2.4
@@ -2547,6 +2554,12 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       find-up: 4.1.0
+    dev: false
+
+  /pnpm@8.6.2:
+    resolution: {integrity: sha512-Dmgwe+T34Xr6UYaTLXSphPS7ok4h2EPkaHQEH6j7USoAk21CzueAdD1nQLkWJwDnZkJucho0LbKntJ+9B5xlUQ==}
+    engines: {node: '>=16.14'}
+    hasBin: true
     dev: false
 
   /postcss-import@15.1.0(postcss@8.4.23):
